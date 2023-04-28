@@ -117,7 +117,7 @@
     "text_6= widgets.HTML(value=\"<h4>是否上传度盘（默认：是）</h4>\")\n",
     "text_7= widgets.HTML(value=\"<h4>是否上传115盘（默认：是）</h4>\")\n",
     "vbox_text = widgets.VBox([image_headline, line1, text_3a, torur, line1, text_3b, toru, text_ytc, ytc, line1, text_3c, gd, line1, text_4, toruri, line1, text_4a, mega, line1, text_code, code, line1, text_1, threats, line1, text_5, cloudname, text_6, cloudname1, text_7, cloudname2, line1,line1, vbox_result, link01])\n",
-    "page = widgets.HBox([vbox_headline, vbox_text])\n",
+    "page = widgets.HTML([vbox_headline, vbox_text])\n",
     "display(page)"
    ]
   }
